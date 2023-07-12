@@ -23,7 +23,7 @@ python3, gradio version 3.1.5
    - API 서버 오류 종류는 아래와 같다
    {ct : 1, message: "사용기간이 만료되었습니다."}
    {ct : 1, message: "사용횟수를 초과했습니다."}
-7. chatbot으로 수행할때 유의 할점
+7. chatbot으로 수행할때 유의 할 점
    - 실행시 gen_btn 버튼으로 초기화
    - gen_btn 의 _js=get_window_url_params 사용하여 url_params 을  key : value 형태로 가져옴
    - chat 함수 실행할 때 url_params['key']  를 가져와서 sendRequestForService 함수로 전달 이후과정은 위와 동일 
