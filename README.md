@@ -12,7 +12,7 @@ python3, gradio version 3.1.5
    - URL Parameter 로 키값 전달 : 예시) http(s)://서비스주소/?key=value
 3. gradio 에 전달된 사용자 키값을 변수로 가져오는 방법
    - gradio _js=get_window_url_params 사용하여 url_params 을  key : value 형태로 가져옴
-   default.py 참고 https://github.com/gradio-app/gradio/discussions/2949
+   default.py 참고 
 5. 사용자 키값을 인공지능팩토리 API 서버에 전달하여 사용량 검사를 실행하는 방법
    - predict 함수 실행할 때 url_params['key']  를 가져와서 sendRequestForService 함수로 전달
    - sendRequestForService 함수는 API 서버에 검사요청한 후 결과를 리턴함
